@@ -1,5 +1,7 @@
 <script>
-	let tributes = [
+	import FeedbackList from "./components/FeedbackList.svelte";
+
+	let feedback = [
 		{
 			id: 1,
 			rating: 9.5,
@@ -67,12 +69,15 @@
 			text: "Becão was a generous guy. He was very fun with those close to him. He liked kidding around, but this side of his personality remained hidden, because most people only got to know Senna the driver, the serious, dedicated, super professional man who left everyone in awe of his talent on the track.",
 		},
 		{
-			id: 9,
-			rating: 9.0,
+			id: 12,
+			rating: 10.0,
 			author: "Thierry Boutsen",
 			text: "He was exceptional. He was a superlative driver, better than any other. He had that extra skill. I don't see anyone today with that level of skill. If he raced today, no one would be able to beat him.",
 		},
 	]
 </script>
-<main></main>
+
+<main>
+	<FeedbackList {feedback}/>
+</main>
 <style></style>
