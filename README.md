@@ -22,3 +22,11 @@ https://github.com/bradtraversy/svelte-feedback-app
 
 Link to Brad's Svelte JS Crash Course video on YouTube...
 https://www.youtube.com/watch?v=3TVy6GdtNuQ&t=103s
+
+
+Acknowledgements
+
+Brad Traversy           -       Tutoring
+Copilot                 -       Research
+Ayrton Senna            -       Inspiration
+
